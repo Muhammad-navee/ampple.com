@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(16, 15, 15);
+    padding-top: 15px;
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* 1st picture */
+
+.main-1{
+    text-align: center;
+    padding: 50px 450px;
+    color: white;
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main-1 h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.main-1 p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.main-1 a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: royalblue;
+    font-size: 16px;
+}
+
+/* 2nd picture */
+
+.main-2{
+    text-align: center;
+    padding: 80px 450px;
+    color: black;
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/hero_iphone14__fjmsqstr1ceq_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main-2 h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.main-2 p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.main-2 a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: royalblue;
+    font-size: 16px;
+}
+
+/* 3rd picture */
+
+.main-3{
+    text-align: center;
+    padding: 100px 450px;
+    color: black;
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/promo_apple_watch_ultra__gnsqulvdc4a6_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main-3 h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.main-3 p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.main-3 a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: royalblue;
+    font-size: 16px;
+}
+
+/* 4th picture */
+
+.main-4{
+    display: flex;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 500px;
+}
+.img1{
+    padding-top: 45px;
+    box-shadow: 0px 0px 5px 0px rgb(163, 163, 163);
+    margin: 5px 4px;
+    width: 50%;
+    height: 500px;
+    background-image: url(./images/promo_apple_watch_ultra__gnsqulvdc4a6_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+.img1 h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.img1 p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+}
+.img1 a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: royalblue;
+    font-size: 16px;
+}
+.img2{
+    padding-top: 45px;
+    box-shadow: 0px 0px 5px 0.5px rgb(163, 163, 163);
+    margin: 5px 4px;
+    width: 50%;
+    height: 500px;
+    background-image: url(./images/promo_ipad__fioegapg12qi_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+
+.img2 h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.img2 p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.img2 a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: royalblue;
+    font-size: 16px;
+}
+
+/* 5th picture */
+
+.main-5{
+    display: flex;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 500px;
+}
+.main-5 .img1{
+    padding-top: 45px;
+    box-shadow: 0px 0px 5px 0px rgb(163, 163, 163);
+    margin: 10px 4px;
+    width: 50%;
+    height: 500px;
+    background-image: url(./images/promo__sw58lbodkmqq_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+.img1 h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.img1 p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+}
+.main-5 .img1 a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.main-5 .img2{
+    padding-top: 45px;
+    box-shadow: 0px 0px 5px 0.5px rgb(163, 163, 163);
+    margin: 10px 4px;
+    width: 50%;
+    height: 500px;
+    background-image: url(./images/promo-apple-fitness-plus-iphone__bzeal882mv7m_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+
+.img2 h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.img2 p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.img2 a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: royalblue;
+    font-size: 16px;
+}
+/* img 6 */
+.main-6{
+    display: flex;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 500px;
+}
+
+.main-6 .img1{
+    padding-top: 45px;
+    box-shadow: 0px 0px 5px 0px rgb(163, 163, 163);
+    margin: 15px 4px;
+    width: 50%;
+    height: 500px;
+    background-image: url(./images/xoxo_promo__czow8gsh0gk2_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}   
+.img1 h1{
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+.img1 p{
+    font-size: 20px;
+    /* margin-bottom: 15px; */
+    
+}
+.main-6 .img2{
+    padding-top: 45px;
+    box-shadow: 0px 0px 5px 0.5px rgb(163, 163, 163);
+    margin: 15px 4px;
+    width: 50%;
+    height: 500px;
+    background-image: url(./images/tile__cauwwcyyn9hy_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+
+.img2 h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.img2 p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.img2 a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: royalblue;
+    font-size: 16px;
+}
+.slider{
+    margin-top: 20px;
+    background-image: url(./images/promo_apple_watch_ultra__gnsqulvdc4a6_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    animation: slider 15s infinite;
+}
+
+@keyframes slider{
+    0%{
+    
+        background-image: url(./images/promo_apple_watch_ultra__gnsqulvdc4a6_large_2x.jpg);
+    }
+    25%{
+    
+        background-image: url(./images/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg);
+    }
+    50%{
+    
+        background-image: url(./images/promo__sw58lbodkmqq_large_2x.jpg);
+    }
+    75%{
+    
+        background-image: url(./images/promo-apple-fitness-plus-iphone__bzeal882mv7m_large_2x.jpg);
+    } 
+    100%{
+    
+        background-image: url(./images/xoxo_promo__czow8gsh0gk2_large_2x.jpg);
+    }
+}
